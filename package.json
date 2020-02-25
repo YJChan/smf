@@ -1,0 +1,26 @@
+{
+  "name": "smf",
+  "version": "1.0.0",
+  "description": "Show latest modified file by path and date provided",
+  "main": "./lib/smf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "smf": "node ./lib/smf.js"
+  },
+  "bin": {
+    "smf": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "author": "YJChan",
+  "license": "MIT",
+  "keywords": ["show file modified date", "tools", "smf"],
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "date-prompt": "^0.7.0",
+    "inquirer": "^7.0.4",
+    "minimist": "^1.2.0",
+    "ora": "^4.0.3"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "smf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Show latest modified file by path and date provided",
   "main": "./lib/smf.js",
   "scripts": {
@@ -13,7 +13,11 @@
   "preferGlobal": true,
   "author": "YJChan",
   "license": "MIT",
-  "keywords": ["show file modified date", "tools", "smf"],
+  "keywords": [
+    "show file modified date",
+    "tools",
+    "smf"
+  ],
   "dependencies": {
     "chalk": "^3.0.0",
     "clear": "^0.1.0",
@@ -21,6 +25,7 @@
     "date-prompt": "^0.7.0",
     "inquirer": "^7.0.4",
     "minimist": "^1.2.0",
+    "moment": "^2.24.0",
     "ora": "^4.0.3"
   }
 }

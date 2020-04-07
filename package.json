@@ -24,7 +24,7 @@
     "clui": "^0.3.6",
     "date-prompt": "^0.7.0",
     "inquirer": "^7.0.4",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "moment": "^2.24.0",
     "ora": "^4.0.3"
   }
